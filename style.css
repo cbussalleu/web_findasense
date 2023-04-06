@@ -19,3 +19,7 @@ nav li {
 nav li:first-child {
   margin-left: 0;
 }
+body {
+  font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
