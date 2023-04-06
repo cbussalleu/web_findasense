@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+body {
+  margin: 20px;
+}
 header {
   background-color: #070707;
   color: #ffffff;
