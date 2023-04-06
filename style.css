@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
 body {
   margin: 20px;
 }
+
 header {
   background-color: #070707;
   color: #ffffff;
@@ -59,6 +61,43 @@ nav li:hover::before {
   transform: translateX(-50%) scaleX(1);
   width: 100%;
 }
+
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+#hero {
+  margin-top: 100px;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 4em;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+#hero h1::before,
+#hero h1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  height: 1px;
+  background-color: #f44336;
+  transform: translateY(-50%);
+}
+
+#hero h1::before {
+  left: -35%;
+}
+
+#hero h1::after {
+  right: -35%;
+}
+
+#hero h1 span {
+  color: #f44336;
+  font-weight: 700;
 }
